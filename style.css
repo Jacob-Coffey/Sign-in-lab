@@ -1,0 +1,49 @@
+body{
+    background-color: pink;
+}
+div{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(187, 177, 177);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    
+       
+}
+.check{
+    position: relative;
+    right: 148px;
+    top: 20px;
+}
+.btn{
+    background-color: aqua;
+    color: red;
+    width: 100px;
+    height: 25px;
+    position: relative;
+    top: 10px;
+}
+.btn:hover{
+    background-color: lightgreen;
+}
+.email{
+    width: 300px;
+    height: 25px;
+    position: relative;
+    bottom: 10px;
+}
+.pass{
+    width: 300px;
+    height: 25px;
+}
+span{
+    position: relative;
+    left: 342px;
+    top: 521px;
+}
